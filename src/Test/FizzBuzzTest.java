@@ -13,6 +13,7 @@ class FizzBuzzTest {
         Test(2, "2");
         Test(4, "4");
         Test(7, "7");
+        Test(14, "14");
     }
 
     @Test
@@ -26,6 +27,11 @@ class FizzBuzzTest {
     void BuzzTests() {
         Test(5, FizzBuzz.BUZZ);
         Test(10, FizzBuzz.BUZZ);
+    }
+
+    @Test
+    void FizzBuzzTests() {
+        Test(15, FizzBuzz.FIZZBUZZ);
     }
 
     private void Test(int input, String expected) {
