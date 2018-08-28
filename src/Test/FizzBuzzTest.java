@@ -12,11 +12,20 @@ class FizzBuzzTest {
         Test(1, "1");
         Test(2, "2");
         Test(4, "4");
+        Test(7, "7");
     }
 
     @Test
     void FizzTests() {
         Test(3, FizzBuzz.FIZZ);
+        Test(6, FizzBuzz.FIZZ);
+        Test(9, FizzBuzz.FIZZ);
+    }
+
+    @Test
+    void BuzzTests() {
+        Test(5, FizzBuzz.BUZZ);
+        Test(10, FizzBuzz.BUZZ);
     }
 
     private void Test(int input, String expected) {
