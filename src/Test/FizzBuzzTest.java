@@ -8,8 +8,9 @@ import org.junit.jupiter.api.Test;
 class FizzBuzzTest {
 
     @Test
-    void myFirstTest() {
+    void NonspecialNumberTests() {
         Test(1, "1");
+        Test(2, "2");
     }
 
     private void Test(int input, String expected) {
