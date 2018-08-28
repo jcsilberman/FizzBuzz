@@ -21,17 +21,21 @@ class FizzBuzzTest {
         Test(3, FizzBuzz.FIZZ);
         Test(6, FizzBuzz.FIZZ);
         Test(9, FizzBuzz.FIZZ);
+        Test(12, FizzBuzz.FIZZ);
+        Test(18, FizzBuzz.FIZZ);
     }
 
     @Test
     void BuzzTests() {
         Test(5, FizzBuzz.BUZZ);
         Test(10, FizzBuzz.BUZZ);
+        Test(20, FizzBuzz.BUZZ);
     }
 
     @Test
     void FizzBuzzTests() {
         Test(15, FizzBuzz.FIZZBUZZ);
+        Test(30, FizzBuzz.FIZZBUZZ);
     }
 
     private void Test(int input, String expected) {
