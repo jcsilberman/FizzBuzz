@@ -13,6 +13,11 @@ class FizzBuzzTest {
         Test(2, "2");
     }
 
+    @Test
+    void FizzTests() {
+        Test(3, FizzBuzz.FIZZ);
+    }
+
     private void Test(int input, String expected) {
         String actual = FizzBuzz.Compute(input);
         assertEquals(expected, actual);
