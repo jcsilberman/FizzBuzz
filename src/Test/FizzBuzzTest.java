@@ -11,6 +11,7 @@ class FizzBuzzTest {
     void NonspecialNumberTests() {
         Test(1, "1");
         Test(2, "2");
+        Test(4, "4");
     }
 
     @Test
